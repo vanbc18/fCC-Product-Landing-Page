@@ -1,0 +1,252 @@
+:root {
+  font-family: 'Permanent Marker', cursive;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+      }
+
+body {
+  font-size: 62.5%;
+  white-space: pre-line;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  background-image: url("https://image.freepik.com/free-vector/cute-rabbit-character-wearing-medical-mask-sky-blue-background-coronavirus-covid-19-illustration_1561-216.jpg");
+  background-attachment: fixed;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 1.1rem;
+  max-width: 100%;
+  height: auto;
+  margin-left: 17rem;
+}
+
+#header {
+  max-width: 100%;
+  height: auto;
+}
+
+#header-img {
+  display: inline-block;
+  width: 3.5%;
+  border-style: solid;
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+  z-index: 2;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1.5em;
+  word-wrap: break-word;
+}
+
+#nav-bar {
+  top: 0;
+  left: 0;
+  font-family: 'Architects Daughter', cursive;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  max-width: 100%;
+  min-height: 4rem;
+  max-height: 5rem;
+  border-bottom: solid;
+  align-items: center;
+  background: linear-gradient(90deg, #17C1FA, #277D49);
+  z-index: 1;
+  justify-content: space-between;
+}
+
+nav > ul {
+  display: flex;
+  max-width: 100%;
+  margin: 0;
+  list-style: none;
+  height: auto;
+}
+
+.nav-link {
+  font-size: 1.9em;
+  font-weight: bold;
+  color: black;
+  max-width: 100%;
+  height: auto;
+  padding: 0.5rem;
+  text-decoration: none;
+  z-index: 2;
+  word-wrap: normal;
+}
+
+.nav-link:hover {
+  padding: 1.3rem;
+  background: rgba(54, 230, 181, 0.8);
+  max-width: 100%;
+  height: auto;
+}
+
+.description {
+  font-size: 3em;
+}
+
+.merch-link {
+  font-size: 3em;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.img-container {
+  font-size: 2em;
+  display: grid;
+  grid-template-row: 1fr 1fr 1fr;
+  grid-row-gap: 1rem;
+  height: auto;
+  justify-content: center;
+}
+
+.small-mug-img {
+  width: 15rem;
+  height: auto;
+  }
+
+.big-mug-img {
+  width: 15rem;
+  height: auto;
+}
+
+.sweat-shirt {
+  width: 15rem;
+  height: auto;
+}
+
+.round-borders {
+  border: 1px solid black;
+  border-radius: 10%;
+  background: radial-gradient(circle, white, white, silver);
+  background-size: contain;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.round-borders2 {
+  border-style: solid;
+  border-radius: 4%;
+  background: linear-gradient(90deg, #2DA36E, #BBE8FB, #2DA36E);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.blacklink {
+  color: black;
+}
+
+#video {
+  min-width: 30%;
+  height: auto;
+}
+
+.email {
+  font-size: 1.7em;
+  width: 50%;
+}
+
+label {
+  font-size: 1.7em;
+}
+
+#submit {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2em;
+  width: 55%;
+  height: auto;
+  word-wrap: break-word;
+}
+
+#submit:hover {
+  cursor: pointer;
+}
+
+footer {
+  font-size: 1.2em;
+  font-family: 'Covered By Your Grace', cursive;
+  margin: 0 auto;
+  padding: 0 auto;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+footer {
+  margin: 0 auto;
+}
+
+footer ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  justify-content: center;
+}
+
+footer li {
+  display: inline-block;
+}
+
+footer li a {
+  color: black;
+  font-size: 2.5em;
+  padding : 0.5rem;
+  text-decoration: none;
+}
+
+footer li a:hover {
+  color: white;
+  background: green;
+}
+
+@media screen and (max-width : 480px) {
+  #nav-bar {
+  min-height: 2rem;
+  max-height: 3rem;
+}
+  .nav-link {
+  display: inline-block;
+  font-size: 1.2em;
+  padding: 0.2rem;
+  z-index: 2;
+}
+
+.nav-link:hover {
+  padding: 0.5rem;
+}
+  
+  .bold {
+  font-size: 1.2em;
+  }
+  
+  #header-img {
+  display: inline-block;
+  width: 10vw;
+  z-index: 2;
+}
+  .img-container {
+  font-size: 1.1em;
+  grid-template-columns: 32% 32% 32%;
+  grid-column-gap: 0.5rem;
+} 
+  
+  #submit {
+  font-size: 1.5em;
+  width: 55%;
+}
+footer li {
+  display: block;
+}
+}
