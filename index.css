@@ -238,7 +238,7 @@ footer li a:hover {
 }
   .img-container {
   font-size: 1.1em;
-  grid-template-columns: 32% 32% 32%;
+  grid-template-columns: 0.5fr;
   grid-column-gap: 0.5rem;
 } 
   
